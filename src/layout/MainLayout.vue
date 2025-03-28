@@ -40,12 +40,6 @@ const handleLogout = async () => {
               >
                 Profile
               </router-link>
-              <router-link
-                to="/protected"
-                class="text-sm font-medium transition-colors hover:text-primary"
-              >
-                Protected
-              </router-link>
               <button
                 @click="handleLogout"
                 class="text-sm font-medium text-destructive transition-colors hover:text-destructive/80"

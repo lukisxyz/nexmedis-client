@@ -25,12 +25,12 @@ const authStore = useAuthStore()
       </div>
 
       <div v-else>
-        <p class="text-lg mb-4">Welcome back, {{ authStore.user?.name }}!</p>
+        <p class="text-lg mb-4">Wellcome Back</p>
         <router-link
-          to="/protected"
+          to="/profile"
           class="inline-flex items-center justify-center rounded-md bg-primary px-4 py-2 text-sm font-medium text-primary-foreground"
         >
-          Go to Protected Page
+          Go to Profile Page
         </router-link>
       </div>
     </div>
