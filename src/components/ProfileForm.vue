@@ -70,7 +70,7 @@ watch(
           id="full_name"
           v-model="fullName"
           required
-          class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500"
+          class="py-2.5 sm:py-3 px-4 block border w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500"
         />
       </div>
 
@@ -80,7 +80,7 @@ watch(
           id="phone_number"
           v-model="phoneNumber"
           required
-          class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500"
+          class="py-2.5 sm:py-3 px-4 block border w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500"
         />
       </div>
 
@@ -90,7 +90,7 @@ watch(
           id="address"
           v-model="address"
           required
-          class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500"
+          class="py-2.5 sm:py-3 px-4 block border w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500"
         />
       </div>
 

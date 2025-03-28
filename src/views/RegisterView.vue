@@ -41,7 +41,7 @@ const handleSubmit = async () => {
           v-model="email"
           type="email"
           required
-          class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none"
+          class="py-2.5 sm:py-3 px-4 block border w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none"
         />
       </div>
       <div class="space-y-2">
@@ -51,7 +51,7 @@ const handleSubmit = async () => {
           v-model="password"
           type="password"
           required
-          class="py-2.5 sm:py-3 px-4 block w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none"
+          class="py-2.5 sm:py-3 px-4 block border w-full border-gray-200 rounded-lg sm:text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none"
         />
       </div>
       <button
