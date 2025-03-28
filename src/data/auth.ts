@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import axios from 'axios'
 
-const API_URL = 'http://103.175.217.181/api'
+const API_URL = 'http://103.175.217.181:8000/api'
 
 export interface LoginCredentials {
   email: string
